@@ -26,4 +26,9 @@ public class codeMessage : MonoBehaviour {
 	}
 */
 
+	public void selectInputField(GameObject letterBox) {
+		UnityEngine.UI.InputField inputText = letterBox.GetComponent<UnityEngine.UI.InputField> ();
+		inputText.ActivateInputField ();
+
+	}
 }
