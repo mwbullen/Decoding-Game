@@ -1,0 +1,14 @@
+To All Operatives,
+We are about to embark on a great mission for DEMON and the future of the world!  Each of you will have a vital part to play to ensure success.
+Keeping out communications secure is critical. The Allies have spies listening and intercepting on all frequencies.  
+Security Protocal Epsilon is authorized.
+Dragon
+
+Letters
+	Display, selectable
+Punctuation
+	Display, not selectable
+Spaces
+	Skip
+New line
+	Skip, but end word and line

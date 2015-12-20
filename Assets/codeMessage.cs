@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class codeMessage : MonoBehaviour {
+	string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 	// Use this for initialization
 	void Start () {
@@ -30,5 +31,23 @@ public class codeMessage : MonoBehaviour {
 		UnityEngine.UI.InputField inputText = letterBox.GetComponent<UnityEngine.UI.InputField> ();
 		inputText.ActivateInputField ();
 
+	}
+
+	public bool isAlphaChar(string inputChar) {
+		if (alphabet.IndexOf(inputChar.ToLower()) > -1) {
+				return true;
+			} else {
+				return false;
+			}
+
+	}
+
+	public bool isNewLineChar(string inputChar) {
+		if (inputChar == System.Environment.NewLine || inputChar == "\n") {
+			return true;
+		}
+
+
+		return false;
 	}
 }
